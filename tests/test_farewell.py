@@ -1,7 +1,3 @@
-import pytest
-
-
-@pytest.mark.xfail(strict=True, reason="PENDING (#1)")
 def test_farewell_greets_the_name():
     """ACCEPT (#1): farewell(name) returns a personalized goodbye.
 
