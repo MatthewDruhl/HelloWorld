@@ -1,7 +1,6 @@
 import pytest
 
 
-@pytest.mark.xfail(strict=True, reason="PENDING (#7)")
 def test_whisper_quietly_greets_the_name():
     """ACCEPT (#7): whisper(name) returns a quiet, lowercased aside.
 
