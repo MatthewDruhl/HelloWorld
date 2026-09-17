@@ -3,6 +3,11 @@ def greet(name: str) -> str:
     return f"Hello, {name}!"
 
 
+def greet_many(names: list[str]) -> str:
+    """Return one greeting per name, newline-joined."""
+    return "\n".join(greet(name) for name in names)
+
+
 def farewell(name: str) -> str:
     """Return a friendly goodbye for name."""
     return f"Goodbye, {name}!"

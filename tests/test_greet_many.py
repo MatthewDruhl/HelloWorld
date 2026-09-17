@@ -1,7 +1,3 @@
-import pytest
-
-
-@pytest.mark.xfail(strict=True, reason="PENDING (#8)")
 def test_greet_many_greets_each_name_on_its_own_line():
     """ACCEPT (#8): greet_many(names) greets each name on its own line.
 
