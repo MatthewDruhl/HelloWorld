@@ -1,7 +1,3 @@
-import pytest
-
-
-@pytest.mark.xfail(strict=True, reason="PENDING (#6)")
 def test_shout_uppercases_and_triple_exclaims_the_greeting():
     """ACCEPT (#6): shout(name) returns the greeting uppercased and triple-exclaimed.
 
