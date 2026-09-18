@@ -1,7 +1,3 @@
-import pytest
-
-
-@pytest.mark.xfail(strict=True, reason="PENDING (#21)")
 def test_roll_call_numbers_each_greeting_on_its_own_line():
     """ACCEPT (#21): roll_call(names) numbers each greeting on its own line.
 
