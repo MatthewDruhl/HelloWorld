@@ -8,6 +8,11 @@ def greet_many(names: list[str]) -> str:
     return "\n".join(greet(name) for name in names)
 
 
+def roll_call(names: list[str]) -> str:
+    """Return one numbered greeting per name, newline-joined."""
+    return "\n".join(f"{i}. {greet(name)}" for i, name in enumerate(names, 1))
+
+
 def farewell(name: str) -> str:
     """Return a friendly goodbye for name."""
     return f"Goodbye, {name}!"
